@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T08:35:51.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="o_aEGhbT9VF8y7Gy4F9C" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T08:41:44.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="B7xEQ_aoPpe_u8vB5uw1" version="14.1.1" type="github">
   <diagram id="IT8x2m44Zbxx-ta-JdR3" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1248" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,19 +40,25 @@
         <mxCell id="3iyhz7jVYeQej4KI-bTn-19" value="全局命名空间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="720" y="230" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3iyhz7jVYeQej4KI-bTn-20" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3iyhz7jVYeQej4KI-bTn-15" target="3iyhz7jVYeQej4KI-bTn-17">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="370" as="sourcePoint" />
-            <mxPoint x="440" y="320" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="3iyhz7jVYeQej4KI-bTn-23" value="&lt;h1&gt;全局命名空间&lt;/h1&gt;&lt;div&gt;每个租户限制一个全局命名空间&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;命名空间需要关联k8s集群，全局不需要&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="215" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3iyhz7jVYeQej4KI-bTn-21" value="1V1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3iyhz7jVYeQej4KI-bTn-20">
-          <mxGeometry x="-0.1111" y="-1" relative="1" as="geometry">
+        <mxCell id="3iyhz7jVYeQej4KI-bTn-24" value="dev" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3iyhz7jVYeQej4KI-bTn-25" value="k8s默认命名空间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3iyhz7jVYeQej4KI-bTn-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3iyhz7jVYeQej4KI-bTn-26" target="3iyhz7jVYeQej4KI-bTn-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iyhz7jVYeQej4KI-bTn-30" value="1V1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3iyhz7jVYeQej4KI-bTn-28">
+          <mxGeometry x="0.2556" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3iyhz7jVYeQej4KI-bTn-23" value="&lt;h1&gt;全局命名空间&lt;/h1&gt;&lt;div&gt;每个租户限制一个全局命名空间&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;命名空间需要关联k8s集群，全局不需要&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="827" y="215" width="190" height="120" as="geometry" />
+        <mxCell id="3iyhz7jVYeQej4KI-bTn-26" value="dev" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
