@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T06:48:29.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.1" etag="4y4Q1dvGX_sR-QyXw1SJ" type="github"><diagram id="sFC7ib0hbQHlUzepaFrl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-31T08:27:28.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="siitL_WJFTpjvhYHvZE5" version="14.1.1" type="github">
+  <diagram id="sFC7ib0hbQHlUzepaFrl" name="Page-1">
+    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="syAo4eth4rngss6gyYjt-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="syAo4eth4rngss6gyYjt-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="230" as="sourcePoint" />
+            <mxPoint x="660" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-2" value="OSS&lt;br&gt;nginx&lt;br&gt;(srv.test-jarvis-api.oss.oa.com)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="syAo4eth4rngss6gyYjt-3" target="syAo4eth4rngss6gyYjt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-3" value="应用网关&lt;br&gt;&lt;b&gt;idc-jarvis-api-test&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-4" value="IDC&lt;br&gt;nginx&lt;br&gt;test-jarvis-api.oss.oa.com.conf&lt;br&gt;(&amp;nbsp;10.120.99.230)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="450" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-5" value="remote url" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="syAo4eth4rngss6gyYjt-6" target="syAo4eth4rngss6gyYjt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-6" value="client &lt;br&gt;set proxy" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="syAo4eth4rngss6gyYjt-7" target="syAo4eth4rngss6gyYjt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-7" value="OSS&lt;br&gt;nginx&lt;br&gt;(srv.test-jarvis-proxy.oss.oa.com)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-9" value="client&lt;br&gt;IDC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-10" value="api&amp;nbsp; service provider" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="syAo4eth4rngss6gyYjt-9" target="syAo4eth4rngss6gyYjt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="310" as="sourcePoint" />
+            <mxPoint x="690" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-13" value="&lt;h1&gt;在此配置应用网关地址&lt;/h1&gt;&lt;p&gt;server {&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; listen&amp;nbsp; 18820;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; server_name 10.120.99.230;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #proxy_set_header Host $host;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_set_header X-Real-IP $remote_addr;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; access_log&amp;nbsp; /data/nginx_log/test-jarvis-api.oss.oa.com ;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; location ^~ /api/wx-sms {&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_pass&amp;nbsp; http://srv.test-jarvis-api.oss.oa.com;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; location / {&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_pass&amp;nbsp; http://oss.esb.oa.com/idc-jarvis-api-test/srv_test-jarvis-api_oss/;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;}&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="450" width="550" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="syAo4eth4rngss6gyYjt-4" target="syAo4eth4rngss6gyYjt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="520" as="sourcePoint" />
+            <mxPoint x="690" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="syAo4eth4rngss6gyYjt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="350" as="sourcePoint" />
+            <mxPoint x="659.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-19" value="devcloud&lt;br&gt;nginx&lt;br&gt;(test.jarvis-api.woa.com)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="syAo4eth4rngss6gyYjt-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="230" as="sourcePoint" />
+            <mxPoint x="660" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="syAo4eth4rngss6gyYjt-21" target="syAo4eth4rngss6gyYjt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-21" value="应用网关&lt;br&gt;&lt;b&gt;oa-jarvis-proxy-test&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="syAo4eth4rngss6gyYjt-22" target="syAo4eth4rngss6gyYjt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-22" value="IDC&lt;br&gt;nginx&lt;br&gt;&amp;nbsp;test.idc.jarvis-proxy.woa.com.conf&lt;br&gt;(&amp;nbsp;10.120.99.230)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="syAo4eth4rngss6gyYjt-23" target="syAo4eth4rngss6gyYjt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-23" value="devcloud&lt;br&gt;nginx&lt;br&gt;(test.jarvis-proxy.woa.com)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syAo4eth4rngss6gyYjt-24" value="&lt;h1&gt;在此处配置应该网关&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="230" width="270" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
