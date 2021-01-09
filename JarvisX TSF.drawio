@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T10:29:48.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="109U5YHQA5lJol5oLo0w" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-09T10:44:30.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="j2A_xcxfNRLjvFbwFnlx" version="14.1.8" type="github">
   <diagram id="-b68cmkpjly45NJEYMcE" name="Page-1">
-    <mxGraphModel dx="2326" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1889" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,8 @@
         <mxCell id="J-GAMBitPqSNVD4_ut0o-15" value="tsf http gateway" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="44.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-18" value="jarvis api gateway" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-18" value="jarvis api gateway&lt;br&gt;(old)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-32" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-118" y="480" width="458" height="60" as="geometry" />
@@ -31,10 +31,10 @@
         <mxCell id="J-GAMBitPqSNVD4_ut0o-51" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="222" y="370" width="115" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-53" value="&lt;h1&gt;一套部署 多客户端支持&lt;/h1&gt;&lt;div&gt;thrift 协议&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务端&lt;/div&gt;&lt;div&gt;1. consul注册中心&lt;/div&gt;&lt;div&gt;2. zookeeper注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;客户端&lt;/div&gt;&lt;div&gt;1. consul 注册中心&lt;/div&gt;&lt;div&gt;2. zookeeper 注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Http 协议&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务端&lt;/div&gt;&lt;div&gt;1. consul 注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;客户端&lt;/div&gt;&lt;div&gt;1. consul 注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;互相调用情况梳理&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. client （thrift）----&amp;gt; zookeeper ---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="120" width="300" height="380" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-53" value="&lt;h1&gt;一套部署 多客户端支持&lt;/h1&gt;&lt;div&gt;thrift 协议&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务端&lt;/div&gt;&lt;div&gt;1. consul注册中心&lt;/div&gt;&lt;div&gt;2. zookeeper注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;客户端&lt;/div&gt;&lt;div&gt;1. consul 注册中心&lt;/div&gt;&lt;div&gt;2. zookeeper 注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Http 协议&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务端&lt;/div&gt;&lt;div&gt;1. consul 注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;客户端&lt;/div&gt;&lt;div&gt;1. consul 注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;互相调用情况梳理&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;一、 多种客户端调用老注册中心老服务（zookeeper and thrift）&lt;/div&gt;&lt;div&gt;1. client （old projct thrift）----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;div&gt;2. client （atom only projct thrift）----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;div&gt;3. client （tsf atom composite projct thrift）----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;div&gt;4. client （tsf only projct http）---&amp;gt; jarvis api gateway (old)----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;二、多种客户端调用新注册中心老服务（consul and thrift）&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1. client （old projct thrift）----&amp;gt; zookeeper (atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. client （atom only projct thrift）----&amp;gt; consul (atom) | zookeeper(atom) ---&amp;gt;server&amp;nbsp; (thrift)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3. client （tsf atom composite projct thrift）----&amp;gt;&amp;nbsp;consul (atom) | zookeeper(atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;4.1 client （tsf only projct http）---&amp;gt; jarvis api gateway (atom)----&amp;gt; consul (atom) | zookeeper(atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;4. 2 client （tsf only projct http）---&amp;gt; jarvis api gateway (old)----&amp;gt; zookeeper(atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;三、多种客户端调用先注册中心新服务（consul and http）&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1. client （old projct thrift）----&amp;gt; tsf http gateway---&amp;gt;server&amp;nbsp; (http)&lt;/div&gt;&lt;div&gt;2. client （atom only projct thrift）----&amp;gt; tsf http gateway ---&amp;gt;server&amp;nbsp; (http)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;3. client （tsf atom composite projct thrift）----&amp;gt;&amp;nbsp;consul (http) ---&amp;gt;server&amp;nbsp; (http)&lt;/div&gt;&lt;div&gt;4. client （tsf only projct http）---&amp;gt; consul (http)---&amp;gt;server&amp;nbsp; (http)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="-110" width="710" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-58" value="jarvis service client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-58" value="jarvis service client&lt;br&gt;(old project)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="-170" width="176" height="120" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-61" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
@@ -64,7 +64,7 @@
         <mxCell id="J-GAMBitPqSNVD4_ut0o-69" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="893" y="470" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-73" value="jarvis api gateway" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-73" value="jarvis api gateway&lt;br&gt;(atom)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="47" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-74" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
