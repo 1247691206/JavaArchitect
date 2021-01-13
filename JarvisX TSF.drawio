@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T10:41:37.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KAz86RjbzQQOWIVv0q3K" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T12:52:06.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="xbBXkmxJK276ce06ACSW" version="14.1.9" type="github">
   <diagram id="-b68cmkpjly45NJEYMcE" name="Page-1">
-    <mxGraphModel dx="2858" dy="2303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,14 +16,14 @@
         <mxCell id="J-GAMBitPqSNVD4_ut0o-32" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-200" y="480" width="458" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-40" value="Consul" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-460" y="170" width="970" height="90" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-40" value="Consul" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="-600" y="170" width="1110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-41" value="Thrift Register Center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="130" y="185" width="360" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-41" value="Thrift Register Center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="50" y="185" width="450" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-42" value="HTTP Register Center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-430" y="185" width="380" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-42" value="HTTP Register Center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-550" y="185" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-50" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="60" y="365" width="200.5" height="60" as="geometry" />
@@ -32,21 +32,21 @@
           <mxGeometry x="66.75" y="355" width="187" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-58" value="jarvis service client&lt;br style=&quot;font-size: 16px;&quot;&gt;(old project)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="700" y="-170" width="326" height="120" as="geometry" />
+          <mxGeometry x="642" y="-170" width="326" height="120" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-61" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="769" y="-70" width="188" height="60" as="geometry" />
+          <mxGeometry x="711" y="-70" width="188" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-62" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="710" y="380" width="313" height="160" as="geometry" />
+          <mxGeometry x="648.5" y="370" width="313" height="160" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-63" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="770" y="340" width="233" height="60" as="geometry" />
+          <mxGeometry x="708.5" y="330" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-65" value="Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-65" value="Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="570" y="170" width="470" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-66" value="atom subgroup" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-66" value="atom subgroup" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;fillColor=#b0e3e6;dashed=1;strokeColor=#050505;" parent="1" vertex="1">
           <mxGeometry x="580" y="185" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-67" value="fm subgroup" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-69" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="817.25" y="470" width="138.5" height="60" as="geometry" />
+          <mxGeometry x="755.75" y="460" width="138.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J-GAMBitPqSNVD4_ut0o-73" value="jarvis api gateway&lt;br style=&quot;font-size: 16px;&quot;&gt;(atom)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-69.5" y="70" width="197" height="60" as="geometry" />
@@ -116,16 +116,16 @@
           <mxGeometry x="1120" y="-110" width="710" height="630" as="geometry" />
         </mxCell>
         <mxCell id="Yk1hcENggpTfmtGuUN9E-1" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="400" width="350" height="160" as="geometry" />
+          <mxGeometry x="-620" y="390" width="350" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Yk1hcENggpTfmtGuUN9E-3" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-527" y="490" width="160" height="60" as="geometry" />
+          <mxGeometry x="-527" y="480" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yk1hcENggpTfmtGuUN9E-4" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="375" width="280" height="60" as="geometry" />
+          <mxGeometry x="-580" y="365" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yk1hcENggpTfmtGuUN9E-5" value="jarvisx-context-server-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-560" y="360" width="250" height="30" as="geometry" />
+          <mxGeometry x="-560" y="350" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yk1hcENggpTfmtGuUN9E-6" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="310" y="390" width="220" height="160" as="geometry" />
@@ -138,6 +138,30 @@
         </mxCell>
         <mxCell id="Yk1hcENggpTfmtGuUN9E-11" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="335.75" y="350" width="167.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-7" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fontSize=19;align=left;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="250" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-8" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fontSize=19;align=left;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="250" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-9" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fontSize=19;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="140" y="245" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-10" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fontSize=19;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="384" y="240" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-14" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;fontSize=19;fillColor=#b0e3e6;dashed=1;strokeColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="400" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-15" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;fontSize=19;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="465" y="200" width="135" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=24.83;direction=north;notch=0;fontSize=19;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="870" y="245" width="40" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-18" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;fontSize=19;fillColor=#b0e3e6;dashed=1;strokeColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="465" y="200" width="135" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
