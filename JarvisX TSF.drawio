@@ -1,143 +1,143 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T06:33:17.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="J23yOFfvltqeNrZfDn1h" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T10:41:37.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KAz86RjbzQQOWIVv0q3K" version="14.1.9" type="github">
   <diagram id="-b68cmkpjly45NJEYMcE" name="Page-1">
-    <mxGraphModel dx="2489" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="2303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-4" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-180" y="390" width="530" height="160" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-4" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="390" width="540" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-15" value="tsf http gateway" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="44.5" width="120" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-15" value="tsf http gateway" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-69.5" width="194.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-18" value="jarvis api gateway&lt;br&gt;(old)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="470" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-18" value="jarvis api gateway&lt;br style=&quot;font-size: 16px;&quot;&gt;(old)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="430" y="40" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-32" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-138" y="480" width="458" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-32" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="480" width="458" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-40" value="Consul" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-40" value="Consul" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-460" y="170" width="970" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-41" value="Thrift Register Center" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-41" value="Thrift Register Center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="130" y="185" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-42" value="HTTP Register Center" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-430" y="185" width="500" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-42" value="HTTP Register Center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="185" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-50" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="198.5" y="380" width="122" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-50" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="60" y="365" width="200.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-51" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-          <mxGeometry x="202" y="370" width="115" height="20" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-51" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="66.75" y="355" width="187" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-58" value="jarvis service client&lt;br&gt;(old project)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="-170" width="176" height="120" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-58" value="jarvis service client&lt;br style=&quot;font-size: 16px;&quot;&gt;(old project)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="700" y="-170" width="326" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-61" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="873" y="-95" width="130" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-61" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="769" y="-70" width="188" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-62" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="853" y="380" width="170" height="160" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-62" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="710" y="380" width="313" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-63" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="873" y="340" width="130" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-63" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="770" y="340" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-65" value="Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="170" width="460" height="90" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-65" value="Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="570" y="170" width="470" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-66" value="atom subgroup" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="185" width="170" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-66" value="atom subgroup" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="580" y="185" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-67" value="fm subgroup" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="185" width="170" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-67" value="fm subgroup" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="860" y="185" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-68" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-68" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="780" as="sourcePoint" />
             <mxPoint x="530" y="-300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-69" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="893" y="470" width="90" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-69" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="817.25" y="470" width="138.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-73" value="jarvis api gateway&lt;br&gt;(atom)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="47" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-73" value="jarvis api gateway&lt;br style=&quot;font-size: 16px;&quot;&gt;(atom)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-69.5" y="70" width="197" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-74" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-          <mxGeometry x="49.5" y="120" width="115" height="20" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-74" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-63.25" y="120" width="184.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-75" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-142" y="380" width="220" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-75" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="375" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-76" value="jarvisx-context-server-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="-124" y="365" width="184" height="30" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-76" value="jarvisx-context-server-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-233.87" y="360" width="247.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-77" value="jarvis service client&lt;br&gt;(tsf atom composite project)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="-170" width="470" height="110" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-77" value="jarvis service client&lt;br style=&quot;font-size: 16px;&quot;&gt;(tsf atom composite project)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-270" y="-170" width="500" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-78" value="jarvis service client &lt;br&gt;(tsf only project)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-450" y="-170" width="256" height="110" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-78" value="jarvis service client &lt;br style=&quot;font-size: 16px;&quot;&gt;(tsf only project)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-610" y="-170" width="326" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-79" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-434" y="-100" width="220" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-79" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-577" y="-92.5" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-80" value="jarvisx-context-client-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="-55" width="184" height="30" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-80" value="jarvisx-context-client-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-567" y="-50" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-81" value="jarvis service client&lt;br&gt;&amp;nbsp;(atom only project)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="321.5" y="-170" width="176" height="110" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-81" value="jarvis service client&lt;br style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;(atom only project)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-170" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-82" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="340.5" y="-100" width="130" height="65" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-82" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="307.5" y="-90" width="200" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-83" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-          <mxGeometry x="348" y="-45" width="115" height="20" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-83" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="327" y="-35" width="161.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-84" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-84" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="111" y="779.9999999999995" as="sourcePoint" />
-            <mxPoint x="101" y="-300" as="targetPoint" />
+            <mxPoint x="40" y="779.9999999999995" as="sourcePoint" />
+            <mxPoint x="30" y="-300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-85" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="-100" width="220" height="60" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-85" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="-90" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-86" value="jarvisx-context-client-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="-136" y="-55" width="184" height="30" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-86" value="jarvisx-context-client-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-243" y="-50" width="246" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-87" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="150" y="-100" width="130" height="65" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-87" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-92.5" width="180" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-88" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-          <mxGeometry x="157.5" y="-45" width="115" height="20" as="geometry" />
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-88" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="48.75" y="-45" width="162.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="J-GAMBitPqSNVD4_ut0o-89" value="&lt;h1&gt;一套部署 多客户端支持&lt;/h1&gt;&lt;div&gt;thrift 协议&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务端&lt;/div&gt;&lt;div&gt;1. consul注册中心&lt;/div&gt;&lt;div&gt;2. zookeeper注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;客户端&lt;/div&gt;&lt;div&gt;1. consul 注册中心&lt;/div&gt;&lt;div&gt;2. zookeeper 注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Http 协议&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务端&lt;/div&gt;&lt;div&gt;1. consul 注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;客户端&lt;/div&gt;&lt;div&gt;1. consul 注册中心&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;互相调用情况梳理&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;一、 多种客户端调用老注册中心老服务（zookeeper and thrift）&lt;/div&gt;&lt;div&gt;1. client （old projct thrift）----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;div&gt;2. client （atom only projct thrift）----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;div&gt;3. client （tsf atom composite projct thrift）----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;div&gt;4. client （tsf only projct http）---&amp;gt; jarvis api gateway (old)----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;二、多种客户端调用新注册中心老服务（consul and thrift）&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1. client （old projct thrift）----&amp;gt; zookeeper (atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. client （atom only projct thrift）----&amp;gt; consul (atom) | zookeeper(atom) ---&amp;gt;server&amp;nbsp; (thrift)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3. client （tsf atom composite projct thrift）----&amp;gt;&amp;nbsp;consul (atom) | zookeeper(atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;4.1 client （tsf only projct http）---&amp;gt; jarvis api gateway (atom)----&amp;gt; consul (atom) | zookeeper(atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;4. 2 client （tsf only projct http）---&amp;gt; jarvis api gateway (old)----&amp;gt; zookeeper(atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;三、多种客户端调用先注册中心新服务（consul and http）&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1. client （old projct thrift）----&amp;gt; tsf http gateway---&amp;gt;server&amp;nbsp; (http)&lt;/div&gt;&lt;div&gt;2. client （atom only projct thrift）----&amp;gt; tsf http gateway ---&amp;gt;server&amp;nbsp; (http)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;3. client （tsf atom composite projct thrift）----&amp;gt;&amp;nbsp;consul (http) ---&amp;gt;server&amp;nbsp; (http)&lt;/div&gt;&lt;div&gt;4. client （tsf only projct http）---&amp;gt; consul (http)---&amp;gt;server&amp;nbsp; (http)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="J-GAMBitPqSNVD4_ut0o-89" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;一套部署 多客户端支持&lt;/h1&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;thrift 协议&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;服务端&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;1. consul注册中心&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;2. zookeeper注册中心&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;客户端&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;1. consul 注册中心&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;2. zookeeper 注册中心&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;Http 协议&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;服务端&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;1. consul 注册中心&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;客户端&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;1. consul 注册中心&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;互相调用情况梳理&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;一、 多种客户端调用老注册中心老服务（zookeeper and thrift）&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;1. client （old projct thrift）----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;2. client （atom only projct thrift）----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;3. client （tsf atom composite projct thrift）----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;4. client （tsf only projct http）---&amp;gt; jarvis api gateway (old)----&amp;gt; zookeeper (fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;二、多种客户端调用新注册中心老服务（consul and thrift）&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;1. client （old projct thrift）----&amp;gt; zookeeper (atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;2. client （atom only projct thrift）----&amp;gt; consul (atom) | zookeeper(atom) ---&amp;gt;server&amp;nbsp; (thrift)&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;3. client （tsf atom composite projct thrift）----&amp;gt;&amp;nbsp;consul (atom) | zookeeper(atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;4.1 client （tsf only projct http）---&amp;gt; jarvis api gateway (atom)----&amp;gt; consul (atom) | zookeeper(atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;4. 2 client （tsf only projct http）---&amp;gt; jarvis api gateway (old)----&amp;gt; zookeeper(atom)---&amp;gt;server&amp;nbsp; (thrift)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;三、多种客户端调用先注册中心新服务（consul and http）&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;1. client （old projct thrift）----&amp;gt; tsf http gateway---&amp;gt;server&amp;nbsp; (http)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;2. client （atom only projct thrift）----&amp;gt; tsf http gateway ---&amp;gt;server&amp;nbsp; (http)&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;3. client （tsf atom composite projct thrift）----&amp;gt;&amp;nbsp;consul (http) ---&amp;gt;server&amp;nbsp; (http)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;4. client （tsf only projct http）---&amp;gt; consul (http)---&amp;gt;server&amp;nbsp; (http)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1;align=left;horizontal=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1120" y="-110" width="710" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="Yk1hcENggpTfmtGuUN9E-1" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="390" width="280" height="160" as="geometry" />
+        <mxCell id="Yk1hcENggpTfmtGuUN9E-1" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-620" y="400" width="350" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Yk1hcENggpTfmtGuUN9E-3" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="480" width="160" height="60" as="geometry" />
+        <mxCell id="Yk1hcENggpTfmtGuUN9E-3" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-527" y="490" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yk1hcENggpTfmtGuUN9E-4" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="-476" y="365" width="220" height="60" as="geometry" />
+        <mxCell id="Yk1hcENggpTfmtGuUN9E-4" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-580" y="375" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yk1hcENggpTfmtGuUN9E-5" value="jarvisx-context-server-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="-458" y="350" width="184" height="30" as="geometry" />
+        <mxCell id="Yk1hcENggpTfmtGuUN9E-5" value="jarvisx-context-server-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="360" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yk1hcENggpTfmtGuUN9E-6" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="390" width="160" height="160" as="geometry" />
+        <mxCell id="Yk1hcENggpTfmtGuUN9E-6" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="310" y="390" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Yk1hcENggpTfmtGuUN9E-7" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="480" width="130" height="60" as="geometry" />
+        <mxCell id="Yk1hcENggpTfmtGuUN9E-7" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="354.5" y="480" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yk1hcENggpTfmtGuUN9E-10" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
-          <mxGeometry x="379" y="360" width="122" height="60" as="geometry" />
+        <mxCell id="Yk1hcENggpTfmtGuUN9E-10" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="329" y="360" width="181" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="Yk1hcENggpTfmtGuUN9E-11" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="382.5" y="350" width="115" height="20" as="geometry" />
+        <mxCell id="Yk1hcENggpTfmtGuUN9E-11" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="335.75" y="350" width="167.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
