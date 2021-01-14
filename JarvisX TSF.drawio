@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T03:16:02.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9EdtLBeVyWn5N-QtoCPH" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T03:22:43.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="AkpWIKTOQTysgJ9oszP1" version="14.1.9" type="github">
   <diagram id="-b68cmkpjly45NJEYMcE" name="Page-1">
-    <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="2303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,6 +239,229 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="836" y="-10" as="sourcePoint" />
             <mxPoint x="836" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-44" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1530" width="540" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-45" value="tsf http gateway" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-109.5" y="1140" width="194.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-46" value="jarvis api gateway&lt;br style=&quot;font-size: 16px;&quot;&gt;(old)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-47" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1620" width="458" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-48" value="Consul" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1310" width="1110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-49" value="Thrift Register Center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1325" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-50" value="HTTP Register Center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1325" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-51" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1505" width="200.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-52" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="26.75" y="1495" width="187" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-53" value="jarvis service client&lt;br style=&quot;font-size: 16px;&quot;&gt;(old project)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="602" y="970" width="326" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-54" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="671" y="1070" width="188" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-55" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="608.5" y="1510" width="313" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-56" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="668.5" y="1470" width="233" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-57" value="Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1310" width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-58" value="atom subgroup" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;fillColor=#b0e3e6;dashed=1;strokeColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1325" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-59" value="fm subgroup" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1325" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-60" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;align=center;horizontal=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1710" as="sourcePoint" />
+            <mxPoint x="490" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-61" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="715.75" y="1600" width="138.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-62" value="jarvis api gateway&lt;br style=&quot;font-size: 16px;&quot;&gt;(atom)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-109.5" y="1222" width="197" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-63" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-103.25" y="1272" width="184.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-64" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1515" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-65" value="jarvisx-context-server-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-273.87" y="1500" width="247.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-66" value="jarvis service client&lt;br style=&quot;font-size: 16px;&quot;&gt;(tsf atom composite project)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="970" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-67" value="jarvis service client &lt;br style=&quot;font-size: 16px;&quot;&gt;(tsf only project)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="970" width="326" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-68" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-617" y="1047.5" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-69" value="jarvisx-context-client-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-607" y="1090" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-70" value="jarvis service client&lt;br style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;(atom only project)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="250" y="970" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-71" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="1050" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-72" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="287" y="1105" width="161.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-73" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;align=center;horizontal=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1710" as="sourcePoint" />
+            <mxPoint x="-10" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-74" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1050" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-75" value="jarvisx-context-client-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-283" y="1090" width="246" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-76" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry y="1047.5" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-77" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="8.75" y="1095" width="162.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-78" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1530" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-79" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-567" y="1620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-80" value="http contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="1505" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-81" value="jarvisx-context-server-tsf" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1490" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-82" value="jarvis service provider" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1530" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-83" value="logic process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="314.5" y="1620" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-84" value="thrift contract protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="289" y="1500" width="181" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-85" value="jarvisx-tsf-atom" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=center;horizontal=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="295.75" y="1490" width="167.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-86" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fontSize=19;align=left;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1390" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-87" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fontSize=19;align=left;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1390" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-88" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fontSize=19;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1385" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-89" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fontSize=19;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="344" y="1380" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-90" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;fontSize=19;fillColor=#b0e3e6;dashed=1;strokeColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1320" width="400" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-91" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;fontSize=19;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1340" width="135" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-92" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=24.83;direction=north;notch=0;fontSize=19;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1385" width="40" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-93" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;fontSize=19;fillColor=#b0e3e6;dashed=1;strokeColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1340" width="135" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-94" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;strokeColor=#d79b00;fontSize=19;align=center;entryX=0;entryY=0.5;entryDx=0;entryDy=0;gradientColor=#ffa500;fillColor=#ffcd28;" edge="1" parent="1" target="4Uo-slI3aMZufZxtW_4q-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-502" y="1120" as="sourcePoint" />
+            <mxPoint x="-80" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-502" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-95" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;strokeColor=#d79b00;fontSize=19;align=center;entryX=0;entryY=0.75;entryDx=0;entryDy=0;gradientColor=#ffa500;fillColor=#ffcd28;" edge="1" parent="1" target="4Uo-slI3aMZufZxtW_4q-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-189" y="1120" as="sourcePoint" />
+            <mxPoint x="-109.5" y="1232.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-189.5" y="1162.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-98" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;strokeColor=#82b366;fontSize=19;align=center;entryX=0.724;entryY=-0.014;entryDx=0;entryDy=0;gradientColor=#97d077;fillColor=#d5e8d4;entryPerimeter=0;" edge="1" parent="1" target="4Uo-slI3aMZufZxtW_4q-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="87" y="1250" as="sourcePoint" />
+            <mxPoint x="580" y="1230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-100" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;strokeColor=#10739e;fontSize=19;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#b1ddf0;entryX=0.82;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4Uo-slI3aMZufZxtW_4q-72" target="4Uo-slI3aMZufZxtW_4q-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1190" as="sourcePoint" />
+            <mxPoint x="270" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-101" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;strokeColor=#10739e;fontSize=19;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#b1ddf0;entryX=0.762;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4Uo-slI3aMZufZxtW_4q-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="1116" as="sourcePoint" />
+            <mxPoint x="210" y="1301" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="582.25" y="1166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-102" value="&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;二、多种客户端调用新注册中心老服务（consul and thrift）&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;1. client （old projct thrift）----&amp;gt; zookeeper (atom | fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;2. client （atom only projct thrift）----&amp;gt; consul (atom) | zookeeper(atom | fm) ---&amp;gt;server&amp;nbsp; (thrift)&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;3. client （tsf atom composite projct thrift）----&amp;gt; consul (atom) | zookeeper(atom | fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;4.1 client （tsf only projct http）---&amp;gt; jarvis api gateway (atom)----&amp;gt; consul (atom) | zookeeper(atom | fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;4. 2 client （tsf only projct http）---&amp;gt; jarvis api gateway (old)----&amp;gt; zookeeper(atom |fm)---&amp;gt;server&amp;nbsp; (thrift)&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-423" y="780" width="1210" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-104" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;strokeColor=#6F0000;fontSize=19;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#a20025;" edge="1" parent="1" source="4Uo-slI3aMZufZxtW_4q-54" target="4Uo-slI3aMZufZxtW_4q-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="377.75" y="1134.9999999999995" as="sourcePoint" />
+            <mxPoint x="280.1999999999998" y="1319.9999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="1270" />
+              <mxPoint x="430" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Uo-slI3aMZufZxtW_4q-105" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;strokeColor=#6F0000;fontSize=19;align=center;fillColor=#a20025;entryX=0.593;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="4Uo-slI3aMZufZxtW_4q-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="809" y="1132" as="sourcePoint" />
+            <mxPoint x="820" y="1292" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="809" y="1140" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
