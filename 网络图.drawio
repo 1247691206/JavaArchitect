@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T07:01:42.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="h8ANfE_HK8kkjQr1_i99" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T07:05:24.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="UV9yKwz5swB8MQk3tm7R" version="14.2.4" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
-    <mxGraphModel dx="5044" dy="2438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="4570" dy="2173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,6 +186,9 @@
         </mxCell>
         <mxCell id="yoNtMCAK0_c3tLPSvV1g-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="yoNtMCAK0_c3tLPSvV1g-74" target="yoNtMCAK0_c3tLPSvV1g-74">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yoNtMCAK0_c3tLPSvV1g-96" value="&lt;h1&gt;现有部署情况图&lt;/h1&gt;&lt;p style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;针对生产环境，jarvis API 网关部署情况进行梳理&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;备注：颜色相同，表示，其部署为一套环境，不同地址只是代表不同的出口。用户只需关系自己客户端的调用所在环境进行选择&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="-680" width="1460" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
