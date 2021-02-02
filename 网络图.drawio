@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T06:57:45.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="_yh-dTO2Cw4059XH05yg" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T07:00:28.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="xyGYTdfPBLmQMDoLSZiI" version="14.2.4" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="4570" dy="2173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -157,23 +157,23 @@
         <mxCell id="yoNtMCAK0_c3tLPSvV1g-72" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;【OA版本】OA：http://srv.jarvis-api.oa.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-1340" y="177.5" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yoNtMCAK0_c3tLPSvV1g-73" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;http://oa-idc.jarvis-api.woa.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="620" y="124.5" width="440" height="40" as="geometry" />
+        <mxCell id="yoNtMCAK0_c3tLPSvV1g-73" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;【Cloud版本】OA-&amp;gt;IDC：http://oa-idc.jarvis-api.woa.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="620" y="124.5" width="600" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yoNtMCAK0_c3tLPSvV1g-74" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;http://jarvis-api.woa.com/api&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;gradientColor=#ea6b66;" vertex="1" parent="1">
+        <mxCell id="yoNtMCAK0_c3tLPSvV1g-74" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;【Cloud版本】OA：http://jarvis-api.woa.com/api&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="620" y="194.5" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yoNtMCAK0_c3tLPSvV1g-75" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;http://idc.jarvis-api.woa.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;gradientColor=#ea6b66;" vertex="1" parent="1">
-          <mxGeometry x="620" y="-166" width="440" height="40" as="geometry" />
+        <mxCell id="yoNtMCAK0_c3tLPSvV1g-75" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;【Cloud版本】IDC-&amp;gt;OA：http://idc.jarvis-api.woa.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-166" width="570" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yoNtMCAK0_c3tLPSvV1g-76" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;http://jarvis-api-idc.woa.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="620" y="-238" width="440" height="40" as="geometry" />
+        <mxCell id="yoNtMCAK0_c3tLPSvV1g-76" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;【Cloud版本】IDC：http://jarvis-api-idc.woa.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-238" width="510" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yoNtMCAK0_c3tLPSvV1g-77" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;https://idc-jarvis.tencent.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="620" y="-290" width="440" height="40" as="geometry" />
+        <mxCell id="yoNtMCAK0_c3tLPSvV1g-77" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;【Cloud版本】外网：https://idc-jarvis.tencent.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-290" width="510" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yoNtMCAK0_c3tLPSvV1g-78" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;http://cloud.jarvis-api.oa.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="-238" width="440" height="40" as="geometry" />
+        <mxCell id="yoNtMCAK0_c3tLPSvV1g-78" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px ; font-weight: 400&quot;&gt;【OA版本】腾讯云：http://cloud.jarvis-api.oa.com/&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="-238" width="520" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yoNtMCAK0_c3tLPSvV1g-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="yoNtMCAK0_c3tLPSvV1g-75" target="yoNtMCAK0_c3tLPSvV1g-75">
           <mxGeometry relative="1" as="geometry" />
