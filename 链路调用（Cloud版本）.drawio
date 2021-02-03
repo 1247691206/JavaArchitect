@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T02:48:28.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Ik7g-CcGNAwsh0MAQNEz" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T02:51:18.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="_urt1TBteLrRwg7t68xC" version="14.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -118,11 +118,14 @@
             <mxPoint x="425" y="310.30999999999995" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pnKsWl6k3-rWOxbT1f3y-31" value="&lt;h1&gt;外网用户--&amp;gt;IDC 网关--&amp;gt;应用网关--&amp;gt;OA网关--&amp;gt;OA服务&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
-          <mxGeometry x="45" y="30" width="585" height="40" as="geometry" />
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-31" value="&lt;h1&gt;外网用户--&amp;gt;云梯网关--&amp;gt;应用网关--&amp;gt;OA网关--&amp;gt;OA服务&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="45" y="30" width="635" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pnKsWl6k3-rWOxbT1f3y-33" value="&lt;h1&gt;OA用户--&amp;gt;应用网关--&amp;gt;IDC网关--&amp;gt;IDC 服务&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-33" value="&lt;h1&gt;OA用户--&amp;gt;应用网关--&amp;gt;云梯网关--&amp;gt;云梯服务&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
           <mxGeometry x="40" y="400" width="585" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-34" value="&lt;h1&gt;OAVPC---&amp;gt;IGate--&amp;gt;云梯Nginx(多端口正向代理)--&amp;gt;外网&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="45" y="610" width="605" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
