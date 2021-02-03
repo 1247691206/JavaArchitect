@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T02:54:38.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="VNHHTmEyhv6fUZ8iBMoq" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T03:00:27.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="9w5kCrhPEiWi5ZNSfong" version="14.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,17 +118,131 @@
             <mxPoint x="425" y="310.30999999999995" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pnKsWl6k3-rWOxbT1f3y-31" value="&lt;h1&gt;外网用户--&amp;gt;云梯网关--&amp;gt;应用网关--&amp;gt;OA网关--&amp;gt;OA服务&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
-          <mxGeometry x="45" y="30" width="635" height="40" as="geometry" />
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-31" value="&lt;h1&gt;外网用户--&amp;gt;云梯网关--&amp;gt;云梯Nginx--&amp;gt;应用网关--&amp;gt;OA网关--&amp;gt;OA服务&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="45" y="30" width="735" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pnKsWl6k3-rWOxbT1f3y-33" value="&lt;h1&gt;OA用户--&amp;gt;应用网关--&amp;gt;云梯网关--&amp;gt;云梯服务&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
           <mxGeometry x="40" y="420" width="585" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pnKsWl6k3-rWOxbT1f3y-34" value="&lt;h1&gt;OAVPC---&amp;gt;IGate--&amp;gt;云梯Nginx（http/80;443;多端口正向代理)--&amp;gt;外网&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
-          <mxGeometry x="40" y="670" width="755" height="40" as="geometry" />
+          <mxGeometry x="40" y="820" width="755" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pnKsWl6k3-rWOxbT1f3y-35" value="&lt;h1&gt;OAVPC---&amp;gt;OAVPC Nginx--&amp;gt;应用网关--&amp;gt;云梯Nginx--&amp;gt;外网&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
-          <mxGeometry x="40" y="980" width="755" height="40" as="geometry" />
+          <mxGeometry x="40" y="1050" width="755" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-36" value="OA用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;shadow=0;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="470" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-37" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;rounded=1;" vertex="1" parent="pnKsWl6k3-rWOxbT1f3y-36">
+          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-38" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;shadow=0;strokeWidth=1;rounded=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="225" y="470" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-39" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;rounded=1;" vertex="1" parent="pnKsWl6k3-rWOxbT1f3y-38">
+          <mxGeometry x="45" y="80" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-40" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.25;exitY=0.994;shadow=0;strokeWidth=1;curved=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pnKsWl6k3-rWOxbT1f3y-39" target="pnKsWl6k3-rWOxbT1f3y-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-41" value="访问idc-jarvis-api.tencent.com" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;curved=1;" edge="1" parent="1" source="pnKsWl6k3-rWOxbT1f3y-37" target="pnKsWl6k3-rWOxbT1f3y-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-42" value="云梯Nginx(CVM)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;shadow=0;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="470" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-43" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;rounded=1;" vertex="1" parent="pnKsWl6k3-rWOxbT1f3y-42">
+          <mxGeometry x="45" y="90" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-44" value="应用网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;shadow=0;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="470" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-45" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;rounded=1;" vertex="1" parent="pnKsWl6k3-rWOxbT1f3y-44">
+          <mxGeometry x="45" y="110" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-46" value="OAVPC(jarvis-soa)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;shadow=0;strokeWidth=1;rounded=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="635" y="470" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-47" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;rounded=1;" vertex="1" parent="pnKsWl6k3-rWOxbT1f3y-46">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-48" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;curved=1;" edge="1" parent="pnKsWl6k3-rWOxbT1f3y-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="189" as="targetPoint" />
+            <mxPoint x="170" y="189.31" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-49" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="520" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-50" value="" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" edge="1" parent="1" source="pnKsWl6k3-rWOxbT1f3y-49" target="pnKsWl6k3-rWOxbT1f3y-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-51" value="http invoke" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;curved=1;fontColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="560.0000000000001" as="sourcePoint" />
+            <mxPoint x="420" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-52" value="proxy_pass" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;curved=1;" edge="1" parent="1" target="pnKsWl6k3-rWOxbT1f3y-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="580.0000000000001" as="sourcePoint" />
+            <mxPoint x="540" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-53" value="访问网关实例" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="590.0000000000001" as="sourcePoint" />
+            <mxPoint x="684.5" y="590.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-54" value="服务提供者" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;shadow=0;strokeWidth=1;rounded=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="760" y="470" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-55" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;rounded=1;" vertex="1" parent="pnKsWl6k3-rWOxbT1f3y-54">
+          <mxGeometry x="45" y="140" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-56" value="rpc invoke" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;curved=1;fontColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="610.0000000000001" as="sourcePoint" />
+            <mxPoint x="814.5" y="610.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-57" value="应用网关idc-&amp;gt;oa&lt;br&gt;代理地址&lt;br&gt;ebs.oss.com/***" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="585" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-58" value="idc-&amp;gt;oa 网关地址&lt;br&gt;idc.jarvis-api.woa.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="565" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-59" value="oa网关地址&lt;br&gt;jarvis-api.woa.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="595" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-60" value="idc网关内网地址&lt;br&gt;jarvis-api-idc.woa.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="565" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-61" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="669" as="targetPoint" />
+            <mxPoint x="680" y="669.31" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-62" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="432.5" y="690" as="targetPoint" />
+            <mxPoint x="547.5" y="690.31" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-63" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="700" as="targetPoint" />
+            <mxPoint x="425" y="700.31" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
