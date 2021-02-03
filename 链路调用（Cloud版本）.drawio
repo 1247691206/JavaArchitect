@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T02:52:46.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="I5S9aNA3Kb44eniX9694" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T02:54:06.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="C8TlFBBnDKHJ_kDZAPHn" version="14.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -125,7 +125,10 @@
           <mxGeometry x="40" y="400" width="585" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pnKsWl6k3-rWOxbT1f3y-34" value="&lt;h1&gt;OAVPC---&amp;gt;IGate--&amp;gt;云梯Nginx（http/80;443;多端口正向代理)--&amp;gt;外网&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
-          <mxGeometry x="45" y="610" width="755" height="40" as="geometry" />
+          <mxGeometry x="45" y="670" width="755" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pnKsWl6k3-rWOxbT1f3y-35" value="&lt;h1&gt;OAVPC---&amp;gt;OAVPC Nginx--&amp;gt;应用网关--&amp;gt;云梯Nginx--&amp;gt;外网&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="755" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
