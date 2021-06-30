@@ -1,61 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T10:31:29.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="kbF7XFbHl292prYTX2mQ" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-30T10:37:24.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="qefoCvuiNcJzKZrDbkC5" version="14.8.2" type="github">
   <diagram id="umcQdf8n9Hy7CaAOuaSm" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-1" value="主线程执行Run方法" style="shape=rect;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-1" value="主线程执行Run方法" style="shape=rect;html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="96" y="370" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-3" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;" edge="1" source="3qFSLNHa823Q9wV1_3MV-1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-3" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;align=left;" edge="1" source="3qFSLNHa823Q9wV1_3MV-1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-5" value="" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;endSize=12;" edge="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-5" value="" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;endSize=12;align=left;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="310" as="sourcePoint" />
             <mxPoint x="790" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-14" value="1.主线程继续执行Run方法&lt;br&gt;2.HystrixTimer线程执行FallBack方法" style="shape=rect;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-14" value="1.主线程继续执行Run方法&lt;br&gt;2.HystrixTimer线程执行FallBack方法" style="shape=rect;html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="223" y="370" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-15" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3qFSLNHa823Q9wV1_3MV-14">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-15" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;align=left;" edge="1" parent="1" source="3qFSLNHa823Q9wV1_3MV-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="323" y="310" as="targetPoint" />
             <mxPoint x="314.5" y="370" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-16" value="1.主线程继续执行Run方法&lt;br&gt;2.FallBack方法执行完毕" style="shape=rect;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-16" value="1.主线程继续执行Run方法&lt;br&gt;2.FallBack方法执行完毕" style="shape=rect;html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="430" y="370" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-17" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;" edge="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-17" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;align=left;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="310" as="targetPoint" />
             <mxPoint x="510" y="370" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-18" value="1.Run方法执行完毕&lt;br&gt;2.获取FallBack方法结果&lt;br&gt;3.主线程继续执行其他逻辑" style="shape=rect;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-18" value="1.Run方法执行完毕&lt;br&gt;2.获取FallBack方法结果&lt;br&gt;3.主线程继续执行其他逻辑" style="shape=rect;html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="590" y="370" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-19" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3qFSLNHa823Q9wV1_3MV-18">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-19" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;align=left;" edge="1" parent="1" source="3qFSLNHa823Q9wV1_3MV-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="665" y="310" as="targetPoint" />
             <mxPoint x="660" y="370" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-20" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-20" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="280" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-21" value="TimeOut" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-21" value="TimeOut" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="280" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-22" value="TimeOut+N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-22" value="TimeOut+N" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="280" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3qFSLNHa823Q9wV1_3MV-23" value="TimeOut+N+M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-23" value="TimeOut+N+M" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="645" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-24" value="Hystrix线程池去执行Run方法，主线程等待" style="shape=rect;html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="90" y="530" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-25" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;align=left;" edge="1" parent="1" source="3qFSLNHa823Q9wV1_3MV-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="144" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-26" value="" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;endSize=12;align=left;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="144" y="470" as="sourcePoint" />
+            <mxPoint x="784" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-27" value="1.&amp;nbsp;HystrixTimer线程设置执行线程为中断状态&lt;br&gt;2.HystrixTimer线程执行FallBack方法" style="shape=rect;html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="217" y="530" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-28" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;align=left;" edge="1" parent="1" source="3qFSLNHa823Q9wV1_3MV-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317" y="470" as="targetPoint" />
+            <mxPoint x="308.5" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-29" value="1.FallBack方法执行完毕&lt;br&gt;2.主线程继续执行" style="shape=rect;html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="424" y="530" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-30" value="" style="edgeStyle=none;dashed=1;html=1;endArrow=none;align=left;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="470" as="targetPoint" />
+            <mxPoint x="504" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-33" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-34" value="TimeOut" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3qFSLNHa823Q9wV1_3MV-35" value="TimeOut+N" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="484" y="440" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
